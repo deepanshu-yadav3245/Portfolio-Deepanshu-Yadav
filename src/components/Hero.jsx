@@ -174,7 +174,7 @@ const Hero = () => {
                 "Jenkins",
                 "AWS",
                 "CI/CD",
-                "Linux",
+                "Linux", 
                 "GitHub Actions",
               ]}
               duration={2000}
