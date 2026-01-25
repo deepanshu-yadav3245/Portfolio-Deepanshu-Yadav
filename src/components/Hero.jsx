@@ -126,8 +126,9 @@ const Hero = () => {
               repeat: Infinity,
               repeatType: 'loop',   
 
+
+              ease: 'easeInOut', 
               
-              ease: 'easeInOut',
             }}
           />
         </div>
