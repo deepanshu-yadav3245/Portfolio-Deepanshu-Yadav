@@ -163,7 +163,7 @@ const Hero = () => {
               &nbsp;🚀 deploying
             </span>
             &nbsp;with confidence.
-          </p>
+          </p> 
 
           <div className="mt-4">
             <FadeRotatingWords
