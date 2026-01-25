@@ -133,7 +133,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Deepanshu</span>
-            
+
           </h1>
 
           <p className="text-[20px] font-light mt-2 text-white-100 max-w-lg leading-relaxed font-[Poppins]">
@@ -155,7 +155,7 @@ const Hero = () => {
               &nbsp;automating
             </span>
             ,
-            <span className="text-sky-400 font-medium hover:text-sky-300 hover:scale-105 transition-all duration-200 cursor-pointer">
+            <span className="text-sky-400 font-medium hover:text-sky-300 hover:scale-105 transition-all duration-200 cursor-pointer ">
               &nbsp;scaling
             </span>
             , and
