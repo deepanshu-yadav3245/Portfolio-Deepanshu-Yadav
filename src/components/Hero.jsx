@@ -124,7 +124,9 @@ const Hero = () => {
             transition={{
               duration: 2,
               repeat: Infinity,
-              repeatType: 'loop',
+              repeatType: 'loop',   
+
+              
               ease: 'easeInOut',
             }}
           />
