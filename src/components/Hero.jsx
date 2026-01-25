@@ -143,7 +143,8 @@ const Hero = () => {
             <span className="text-cyan-400 font-medium hover:text-cyan-300 hover:scale-105 transition-all duration-200 cursor-pointer">
               &nbsp;web developer
             </span>
-            &nbsp;who not only builds
+            &nbsp;who not only builds 
+            
             <span className="text-pink-400 font-medium hover:text-pink-300 hover:scale-105 transition-all duration-200 cursor-pointer">
               &nbsp;beautiful UIs
             </span>
