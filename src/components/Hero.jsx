@@ -144,7 +144,7 @@ const Hero = () => {
               &nbsp;web developer
             </span>
             &nbsp;who not only builds 
-            
+
             <span className="text-pink-400 font-medium hover:text-pink-300 hover:scale-105 transition-all duration-200 cursor-pointer">
               &nbsp;beautiful UIs
             </span>
@@ -232,7 +232,7 @@ const Hero = () => {
             <h2 className="text-xl sm:text-2xl font-semibold">Deepanshu Yadav</h2>
             <p className="text-sm sm:text-base text-white/80 mt-1">Web Developer & DevOps Enthusiast</p>
           </motion.div>
-        </div>
+        </div> 
       )}
 
       {/* 🔻 Scroll Down */}
