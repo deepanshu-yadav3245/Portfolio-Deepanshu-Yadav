@@ -52,7 +52,7 @@ const FadeRotatingWords = ({ words, duration = 2000 }) => {
 
 const socialLinks = [
   {
-    href: 'https://www.linkedin.com/in/me/',
+    href: 'https://www.linkedin.com/in/deepasnhu-yadav/',
     icon: <FaLinkedin className="text-white text-[23px]" />,
     bg: 'bg-blue-600/80',
     title: 'LinkedIn',
@@ -64,23 +64,23 @@ const socialLinks = [
     title: 'GitHub',
   },
   {
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/rahul_23rwdy/',
     icon: <FaInstagram className="text-white text-[23px]" />,
     bg: 'bg-pink-600/80',
     title: 'Instagram',
   },
   {
-    href: 'mailto:someone@example.com',
+    href: 'mailto:deepanshuyadav7111@gmail.com',
     icon: <FaEnvelope className="text-white text-[23px]" />,
     bg: 'bg-yellow-500/80',
     title: 'Email',
   },
-  {
-    href: 'https://youtube.com',
-    icon: <FaYoutube className="text-white text-[23px]" />,
-    bg: 'bg-red-600/80',
-    title: 'YouTube',
-  },
+  // {
+  //   href: 'https://youtube.com',
+  //   icon: <FaYoutube className="text-white text-[23px]" />,
+  //   bg: 'bg-red-600/80',
+  //   title: 'YouTube',
+  // },
 ];
 
 const Hero = () => {
