@@ -124,9 +124,9 @@ const Hero = () => {
             transition={{
               duration: 2,
               repeat: Infinity,
-              repeatType: 'loop',   
+              repeatType: 'loop',
 
-              
+
               ease: 'easeInOut',
             }}
           />
@@ -135,7 +135,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Deepanshu</span>
-            
+
           </h1>
 
           <p className="text-[20px] font-light mt-2 text-white-100 max-w-lg leading-relaxed font-[Poppins]">
@@ -143,8 +143,8 @@ const Hero = () => {
             <span className="text-cyan-400 font-medium hover:text-cyan-300 hover:scale-105 transition-all duration-200 cursor-pointer">
               &nbsp;web developer
             </span>
-            &nbsp;who not only builds 
-            
+            &nbsp;who not only builds
+
             <span className="text-pink-400 font-medium hover:text-pink-300 hover:scale-105 transition-all duration-200 cursor-pointer">
               &nbsp;beautiful UIs
             </span>
@@ -166,7 +166,7 @@ const Hero = () => {
               &nbsp;🚀 deploying
             </span>
             &nbsp;with confidence.
-          </p> 
+          </p>
 
           <div className="mt-4">
             <FadeRotatingWords
@@ -177,7 +177,7 @@ const Hero = () => {
                 "Jenkins",
                 "AWS",
                 "CI/CD",
-                "Linux", 
+                "Linux",
                 "GitHub Actions",
               ]}
               duration={2000}
@@ -190,24 +190,23 @@ const Hero = () => {
       <ComputersCanvas />
 
       {/* 👤 DP Bottom Left with Circle, Pulse, Glow, and Modal */}
-     {/* 👤 Profile Image with animated border */}
-<div
-  className="absolute bottom-4 left-4 z-30 group cursor-pointer"
-  onClick={() => setShowModal(true)}
->
-  <div className="dp-glow-border w-25 h-25 sm:w-28 sm:h-28 rounded-full flex items-center justify-center">
-    <motion.img
-      src="/dp.jpg"
-      alt="Profile"
-      className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-[3px] border-white shadow-xl transition-all duration-300"
-      whileHover={{ scale: 1.1, rotate: [0, 5, -5, 0] }}
-    />
-  </div>
-  <p className="text-white text-[10px] sm:text-xs mt-1 text-center font-light opacity-80 group-hover:opacity-100 transition duration-300">
-    ~ my dp • click me
-  </p>
-</div>
-
+      {/* 👤 Profile Image with animated border */}
+      {/* <div
+        className="absolute bottom-4 left-4 z-30 group cursor-pointer"
+        onClick={() => setShowModal(true)}
+      >
+        <div className="dp-glow-border w-25 h-25 sm:w-28 sm:h-28 rounded-full flex items-center justify-center">
+          <motion.img
+            src="/dp.jpg"
+            alt="Profile"
+            className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-[3px] border-white shadow-xl transition-all duration-300"
+            whileHover={{ scale: 1.1, rotate: [0, 5, -5, 0] }}
+          />
+        </div>
+        <p className="text-white text-[10px] sm:text-xs mt-1 text-center font-light opacity-80 group-hover:opacity-100 transition duration-300">
+          ~ my dp • click me
+        </p>
+      </div> */}
 
       {/* 🔍 Modal */}
       {showModal && (
