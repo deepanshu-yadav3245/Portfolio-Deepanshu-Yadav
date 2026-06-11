@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { dp, menu, close } from '../assets';
 import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -84,7 +84,7 @@ const Navbar = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
         >
-          <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
+          <img src={dp} alt="logo" className='w-9 h-9 object-contain rounded-full border-2 border-white' />
           <p className={`relative cursor-pointer text-[18px] font-bold transition-colors duration-300
             ${darkMode ? 'text-[#7dd3fc] hover:text-white hover:drop-shadow-[0_0_6px_#7dd3fc]' : 'text-blue-600 hover:text-blue-500 hover:drop-shadow-[0_0_6px_#3b82f6]'}
             after:content-[''] after:absolute after:w-0 after:h-[2px] after:${darkMode ? 'bg-white' : 'bg-black'} after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300`}>
